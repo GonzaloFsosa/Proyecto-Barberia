@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ProyectoBarberia" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ProyectoBarberia" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ProyectoBarberia" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Barbero.cpp" />
+		<Unit filename="Barbero.h" />
+		<Unit filename="BarberoArchivo.cpp" />
+		<Unit filename="BarberoArchivo.h" />
+		<Unit filename="BarberoManager.cpp" />
+		<Unit filename="BarberoManager.h" />
+		<Unit filename="Cliente.cpp" />
+		<Unit filename="Cliente.h" />
+		<Unit filename="ClienteArchivo.cpp" />
+		<Unit filename="ClienteArchivo.h" />
+		<Unit filename="Corte.cpp" />
+		<Unit filename="Corte.h" />
+		<Unit filename="CorteArchivo.cpp" />
+		<Unit filename="CorteArchivo.h" />
+		<Unit filename="Producto.cpp" />
+		<Unit filename="Producto.h" />
+		<Unit filename="ProductoArchivo.cpp" />
+		<Unit filename="ProductoArchivo.h" />
+		<Unit filename="Turno.cpp" />
+		<Unit filename="Turno.h" />
+		<Unit filename="TurnoArchivo.cpp" />
+		<Unit filename="TurnoArchivo.h" />
+		<Unit filename="Venta.cpp" />
+		<Unit filename="Venta.h" />
+		<Unit filename="VentaArchivo.cpp" />
+		<Unit filename="VentaArchivo.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
